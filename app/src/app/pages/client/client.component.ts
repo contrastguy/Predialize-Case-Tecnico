@@ -10,5 +10,4 @@ export class ClientComponent implements OnInit {
   ngOnInit(): void {
       
   } //Função ngOnInit() deveria estar dentro desta classe , após construtor
-  
 }

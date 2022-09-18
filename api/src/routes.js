@@ -1,12 +1,13 @@
 module.exports.load = (app) => {
   /** Get all clients */
   app.get("/", (req, res, next) => {
-     res.send([{}])
+    const [{_id,name,image_src,enterprises,enterprises:realties}]= req.body
+   console.log(res.status(200).send([{_id,name,image_src,enterprises,realties}]))
   });  
 
   /** Get clients by name */
   app.get("/name/:name", (req, res, next) => {});
-  
+     
   /** Get client totals */
   app.get("/:client_id/totals", (req, res, next) => {});  
 
