@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dashboard de Clientes
 
 Este desafio faz parte do processo seletivo para desenvolvedores FullStack da **Predialize**. O projeto já possui uma estrutura básica inicial para que você não perca tempo com coisas que não estamos interessados em avaliar.
@@ -103,3 +104,6 @@ Se vocês chegou até aqui, parabéns! Agora, vamos melhorar nosso projeto? Abai
   - Retornar da Api somente: _\_id, imagem, nome, nome do cliente (empresa) e quantidade de imóveis de cada cliente._
   - A pesquisa deve retornar os resultados mesmo que não se tenha um "match" completo do termo pesquisado;
   - Exibir somente os resultados retornados;
+=======
+# Predialize-Case-Tecnico
+>>>>>>> c2647ad83fb68b6d7be982612155151b7d70ab9d
