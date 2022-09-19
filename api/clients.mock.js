@@ -1,4 +1,4 @@
-module.exports = [
+let load = [
   {
     _id: "3156",
     name: "Pedra Branca Cidade Criativa",
@@ -375,3 +375,4 @@ module.exports = [
     ],
   },
 ];
+module.exports = {load}

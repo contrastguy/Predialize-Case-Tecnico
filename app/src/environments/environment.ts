@@ -5,7 +5,7 @@
 export const environment = {
   production: true, 
   // production tem que ser true , para fazer com que o bloco de código do if , funcione
-  api: "http://localhost:3001"
+  api: "http://localhost:3030"
 };
 
 /*

@@ -1,11 +1,15 @@
 const app = require("express")();
 const cors = require("cors");
-const routes = require("./routes");
-
+const { json } = require("express");
+const { load } = require("../clients.mock");
+const route  = require("./routes")
+app.use(json())
 app.use(cors());
 
-routes.load(app);
+app.use("/",route)
 
-app.listen(3000, () => {
-  console.log(`Api running at ::3000`);
+app.listen(3030, () => {
+  console.log(`Api running at :3030`);
+
 });
+

@@ -105,5 +105,4 @@ Se vocês chegou até aqui, parabéns! Agora, vamos melhorar nosso projeto? Abai
   - A pesquisa deve retornar os resultados mesmo que não se tenha um "match" completo do termo pesquisado;
   - Exibir somente os resultados retornados;
 =======
-# Predialize-Case-Tecnico
->>>>>>> c2647ad83fb68b6d7be982612155151b7d70ab9d
+

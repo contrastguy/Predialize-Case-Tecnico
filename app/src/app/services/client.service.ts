@@ -8,7 +8,11 @@ export class ClientService {
 
   constructor(private http: HttpClient) {}
 
-  getAll() {}
+  //pegar as funções e usá-las no Front-End
+  getAll() {
+    return this.http.request('GET', this.apiUrl,{responseType:'json'});
+ }
+  
 
   getById() {}
 
